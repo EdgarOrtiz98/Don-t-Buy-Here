@@ -20,4 +20,6 @@ Route::get('/', function () {
 
 
 Route::get('/login', [HomeController::class, 'index']);
+Route::get('/login', [HomeController::class, 'index']);
+Route::get('/login', [HomeController::class, 'index']);
 
